@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>index</title>        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+        <style>
+            *{
+                font-family: Times New Roman;                
+            }
+
+            .header{
+                background-color: #ded2ab;
+                font-size: 1.17em !important;
+            }            
+
+            .row{
+                background: #fafafa;
+                height: 500px;
+            }
+
+            img{
+                width: 454px;
+                height: 214px;
+            }
+
+            .menuCard{
+                width: 170px;
+                height: 180px;
+                background-color: #fff;                
+            }
+
+            .shadow{
+                box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px 0px;
+            }
+
+            .menuRow{
+                top: 64%;  
+                left: calc( 38% - 359px );
+            }
+
+            .menuText{
+                font-size: 13px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="w-100">
+            <div class="header p-3 m-2 text-center h5 font-weight-bold">Welcome to Library Management System</div>            
+        </div>
+        <br><br><br><br><br><br>
+        <div class="container">
+            <div class="container d-flex justify-content-center mt-3">
+                <div class="d-table shadow">
+                    <div class="col h2 w-50 text-center d-table-cell align-middle">
+                    <div class="font-weight-bold ">About US</div><br>
+                    <div class="h5 pb-2">Library Management System provide you with the best free e-Book to read and access with several
+                    others function that you can experience by yourselves. Our mission is we want to engage, inspire, educate and unite 
+                    everyone in our diverse community. </div></div> 
+                    <div class="image col d-table-cell align-middle"><img src="images/main.png" /></div>
+                </div>            
+            </div>      
+        </div>   
+        <br><br>
+                <div class="d-flex justify-content-around w-100">
+                    <a href="staffLogin.jsp" class="menuCard border p-2 text-dark shadow">
+                        <div class="h5 pb-2">Log in As Staff</div>
+                        <div><img src="images/staff.png" style="width:100px; height: 100px" /></div>              
+                    </a>  
+                    <a href="login.jsp" class="menuCard border p-2 text-dark shadow">
+                        <div class="h5 pb-2">Log in As Customer</div>
+                        <div><img src="images/customer.png" style="width:100px; height: 100px"/></div>               
+                    </a>
+                </div>            
+            
+    </body>
+</html>
